@@ -1,0 +1,5 @@
+# Get all contacts
+GET https://cse341-project1-rb78.onrender.com/users
+
+# Get contact by id
+GET https://cse341-project1-rb78.onrender.com/users/666b6e3aec5d3c31d51427ac
