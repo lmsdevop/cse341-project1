@@ -1,5 +1,13 @@
+// LOCAL
 # Get all contacts
-GET https://cse341-project1-rb78.onrender.com/users
+GET http://localhost:3000/contacts
 
 # Get contact by id
-GET https://cse341-project1-rb78.onrender.com/users/666b6e3aec5d3c31d51427ac
+GET http://localhost:3000/contacts/666b7393ec5d3c31d51afb7b
+
+// PRODUCTION
+# Get all contacts
+GET https://cse341-project1-rb78.onrender.com/contacts
+
+# Get contact by id
+GET https://cse341-project1-rb78.onrender.com/contacts/666b6e3aec5d3c31d51427ac
